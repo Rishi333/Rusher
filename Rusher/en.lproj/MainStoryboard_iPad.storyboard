@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="WvM-iJ-hNx">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller - Rusher-->
+        <scene sceneID="4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4hY-ie-F6L">
+                                <rect key="frame" x="175" y="132" width="419" height="47"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Search In the Web" image="searchinweb-ipad.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zF1-6f-1Dd" kind="push" id="Heq-e8-sip"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Uja-Sp-xXJ">
+                                <rect key="frame" x="175" y="510" width="419" height="47"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Tutorial" image="tutorial-ipad.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TKS-TB-5IE" kind="push" id="9dr-Lw-FFU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zkA-NX-nsl">
+                                <rect key="frame" x="175" y="388" width="419" height="47"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="MAPS" image="Maps-ipad.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mapsPressed:" destination="2" eventType="touchUpInside" id="yDo-r9-nRE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h9L-uy-zQ8">
+                                <rect key="frame" x="175" y="253" width="419" height="47"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Enter Adress" image="Where am i-ipad.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qKs-O3-nhD" kind="push" id="XPB-1H-ffk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nSd-i1-erF">
+                                <rect key="frame" x="60" y="843" width="136" height="51"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <state key="normal" title="CREDITS">
+                                    <color key="titleColor" red="1" green="0.98461670403451029" blue="0.97239422250000263" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="E3p-Uy-2XB" kind="push" id="lfr-6W-PGX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Sq4-DP-7kY">
+                                <rect key="frame" x="650" y="859" width="18" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5" kind="popover" popoverAnchorView="Sq4-DP-7kY" id="cq1-Fy-WVQ">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Rusher" id="yy8-Rn-WOe" propertyAccessControl="all"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="680" y="15"/>
+        </scene>
+        <!--Web View Controller - Web Search-->
+        <scene sceneID="Nio-b6-vvb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3NR-9z-zHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="zF1-6f-1Dd" customClass="WebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vHT-dM-xTK">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="Nj2-Nv-Bu9">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="916"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="zF1-6f-1Dd" id="VKk-aR-qbG"/>
+                                </connections>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" id="uPv-8Q-4M9">
+                                <rect key="frame" x="0.0" y="916" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="BACK" width="118" id="eby-Mj-JJS">
+                                        <connections>
+                                            <action selector="Buttons:" destination="zF1-6f-1Dd" id="F8l-qP-fPB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1Xm-Rt-3bz"/>
+                                    <barButtonItem title="Reload" width="118" id="HkY-yg-v1e">
+                                        <connections>
+                                            <action selector="Buttons:" destination="zF1-6f-1Dd" id="CDi-Qn-cfh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zsm-wM-QLh"/>
+                                    <barButtonItem title="Map" width="118" id="V7A-x3-rNv">
+                                        <connections>
+                                            <action selector="Buttons:" destination="zF1-6f-1Dd" id="2MH-p9-PhK"/>
+                                            <segue destination="qKs-O3-nhD" kind="push" id="3Ir-Zf-ANi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Web Search" id="1Sq-uF-BIF">
+                        <barButtonItem key="rightBarButtonItem" title="Google" id="Zoo-MO-Klc">
+                            <connections>
+                                <action selector="Buttons:" destination="zF1-6f-1Dd" id="bc6-JK-3bh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="MAP" destination="V7A-x3-rNv" id="2Nt-NA-wnG"/>
+                        <outlet property="back" destination="eby-Mj-JJS" id="jCR-TV-xRc"/>
+                        <outlet property="google" destination="Zoo-MO-Klc" id="MHR-xf-BM7"/>
+                        <outlet property="reload" destination="HkY-yg-v1e" id="142-kj-eIl"/>
+                        <outlet property="webView" destination="Nj2-Nv-Bu9" id="Nta-81-XaK"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1716" y="15"/>
+        </scene>
+        <!--View Controller - Page 1-->
+        <scene sceneID="CEu-KO-tYV">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vla-Ss-GCZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="TKS-TB-5IE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="crE-lD-TWH">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iphone pic 1.png" id="waZ-tb-TcT">
+                                <rect key="frame" x="0.0" y="0.0" width="782" height="960"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Page 1" id="2Gg-kq-H6E">
+                        <barButtonItem key="rightBarButtonItem" title="NEXT" id="wZf-rl-aFE">
+                            <connections>
+                                <segue destination="VKz-U5-v7s" kind="push" id="LYc-ND-WB5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="680" y="-1112"/>
+        </scene>
+        <!--View Controller - Page 2-->
+        <scene sceneID="iJx-a1-gfM">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iML-s6-FhE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="VKz-U5-v7s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CMQ-g2-NDn">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="iphone pic 2.png" id="Ark-dO-xDc">
+                                <rect key="frame" x="0.0" y="0.0" width="798" height="1135"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Page 2" id="vym-WS-nD3">
+                        <barButtonItem key="rightBarButtonItem" title="MAIN" id="jsq-wi-sVZ">
+                            <connections>
+                                <segue destination="2" kind="push" id="Eb7-6Q-u4t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1716" y="-1112"/>
+        </scene>
+        <!--Flipside View Controller - Settings-->
+        <scene sceneID="7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6" sceneMemberID="firstResponder"/>
+                <viewController id="5" customClass="FlipsideViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="a5P-AY-Re5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Settings" id="1Uv-EA-6TX"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="H4C-1l-a3b"/>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-32" y="1133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8iH-Yd-jxa">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="myw-It-Sls" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="E3p-Uy-2XB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G25-Qs-Zs6">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="credits.png" id="7EG-Sv-AKN">
+                                <rect key="frame" x="14" y="-86" width="768" height="1046"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PDw-9y-u4R"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="680" y="1189"/>
+        </scene>
+        <!--Map View Controller - MAP-->
+        <scene sceneID="LFM-Qe-ozJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A27-lL-ZpR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="qKs-O3-nhD" customClass="MapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vy6-b2-tfd">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="RCy-N0-ZoT">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="qKs-O3-nhD" id="MfM-Zq-hFy"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MAP" id="egE-Z4-BXc">
+                        <barButtonItem key="rightBarButtonItem" title="Directions" id="74I-EJ-gjc">
+                            <connections>
+                                <action selector="directionsPressed:" destination="qKs-O3-nhD" id="9im-Aw-CDT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="RCy-N0-ZoT" id="dOP-Yr-I2q"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1716" y="1189"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ukM-h9-RAO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZEg-PH-ieq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="WvM-iJ-hNx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="spQ-xN-NfQ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="EG8-eg-tXv"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-294" y="15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Maps-ipad.png" width="419" height="47"/>
+        <image name="Where am i-ipad.png" width="419" height="47"/>
+        <image name="credits.png" width="640" height="960"/>
+        <image name="iphone pic 1.png" width="640" height="832"/>
+        <image name="iphone pic 2.png" width="640" height="832"/>
+        <image name="searchinweb-ipad.png" width="419" height="47"/>
+        <image name="tutorial-ipad.png" width="419" height="47"/>
+    </resources>
+    <classes>
+        <class className="FlipsideViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipsideViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="done:"/>
+                <relationship kind="action" name="switchHasBeenTouched:"/>
+                <relationship kind="outlet" name="mapStyle" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+        <class className="MainViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="mapsPressed:"/>
+                <relationship kind="outlet" name="Maps" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="directionsPressed:"/>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="WebViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="Buttons:"/>
+                <relationship kind="outlet" name="MAP" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="Search" candidateClass="UISearchBar"/>
+                <relationship kind="outlet" name="back" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="forward" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="google" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="reload" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="EG8-eg-tXv"/>
+        <segue reference="3Ir-Zf-ANi"/>
+    </inferredMetricsTieBreakers>
+</document>
